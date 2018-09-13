@@ -106,7 +106,8 @@ module.exports = {
     // 'jsx-quotes': ['off', 'prefer-double'],
 
     // enforces spacing between keys and values in object literal properties
-    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+    // TODO: enable
+    // 'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 
     // require a space before & after certain keywords
     'keyword-spacing': 'error',
@@ -256,10 +257,12 @@ module.exports = {
 
     // disallow use of chained assignment expressions
     // https://eslint.org/docs/rules/no-multi-assign
-    'no-multi-assign': ['error'],
+    // TODO: enable
+    // 'no-multi-assign': ['error'],
 
     // disallow multiple empty lines and only one newline at the end
-    'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
+    // TODO: enable
+    // 'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
 
     // // disallow negated conditions
     // // https://eslint.org/docs/rules/no-negated-condition
@@ -298,7 +301,8 @@ module.exports = {
     // ],
 
     // disallow space between function identifier and application
-    'no-spaced-func': 'error',
+    // TODO: enable
+    // 'no-spaced-func': 'error',
 
     // // disallow tab characters entirely
     // 'no-tabs': 'error',
@@ -324,11 +328,13 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`
     // https://eslint.org/docs/rules/no-unneeded-ternary
-    'no-unneeded-ternary': ['error', { defaultAssignment: false }],
+    // TODO: enable
+    // 'no-unneeded-ternary': ['error', { defaultAssignment: false }],
 
     // disallow whitespace before properties
     // https://eslint.org/docs/rules/no-whitespace-before-property
-    'no-whitespace-before-property': 'error',
+    // TODO: enable
+    // 'no-whitespace-before-property': 'error',
 
     // // enforce the location of single-line statements
     // // https://eslint.org/docs/rules/nonblock-statement-body-position
@@ -348,9 +354,10 @@ module.exports = {
 
     // enforce "same line" or "multiple line" on object properties.
     // https://eslint.org/docs/rules/object-property-newline
-    'object-property-newline': ['error', {
-      allowAllPropertiesOnSameLine: true,
-    }],
+    // TODO: enable
+    // 'object-property-newline': ['error', {
+    //   allowAllPropertiesOnSameLine: true,
+    // }],
 
     // allow just one var statement per function
     'one-var': ['error', 'never'],
@@ -361,14 +368,16 @@ module.exports = {
 
     // require assignment operator shorthand where possible or prohibit it entirely
     // https://eslint.org/docs/rules/operator-assignment
-    'operator-assignment': ['error', 'always'],
+    // TODO: enable
+    // 'operator-assignment': ['error', 'always'],
 
     // // Requires operator at the beginning of the line in multiline statements
     // // https://eslint.org/docs/rules/operator-linebreak
     // 'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
 
     // disallow padding within blocks
-    'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],
+    // TODO: enable
+    // 'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],
 
     // // Require or disallow padding lines between statements
     // // https://eslint.org/docs/rules/padding-line-between-statements
@@ -398,7 +407,8 @@ module.exports = {
 
     // Enforce location of semicolons
     // https://eslint.org/docs/rules/semi-style
-    'semi-style': ['error', 'last'],
+    // TODO: enable
+    // 'semi-style': ['error', 'last'],
 
     // // requires object keys to be sorted
     // 'sort-keys': ['off', 'asc', { caseSensitive: false, natural: true }],

@@ -120,11 +120,13 @@ module.exports = {
 
     // disallow negating the left operand of relational operators
     // https://eslint.org/docs/rules/no-unsafe-negation
-    'no-unsafe-negation': 'error',
+    // TODO: enable
+    // 'no-unsafe-negation': 'error',
 
     // disallow negation of the left operand of an in expression
     // deprecated in favor of no-unsafe-negation
-    'no-negated-in-lhs': 'off',
+    // TODO: turn off
+    'no-negated-in-lhs': 'error',
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
     // https://eslint.org/docs/rules/require-atomic-updates
@@ -140,6 +142,7 @@ module.exports = {
 
     // ensure that the results of typeof are compared against a valid string
     // https://eslint.org/docs/rules/valid-typeof
-    'valid-typeof': ['error', { requireStringLiterals: true }],
+    // TODO: enable
+    // 'valid-typeof': ['error', { requireStringLiterals: true }],
   }
 };

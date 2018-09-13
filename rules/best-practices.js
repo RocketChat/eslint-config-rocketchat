@@ -68,13 +68,14 @@ module.exports = {
 
     // disallow empty functions, except for standalone funcs/arrows
     // https://eslint.org/docs/rules/no-empty-function
-    'no-empty-function': ['error', {
-      allow: [
-        'arrowFunctions',
-        'functions',
-        'methods',
-      ]
-    }],
+    // TODO: enable
+    // 'no-empty-function': ['error', {
+    //   allow: [
+    //     'arrowFunctions',
+    //     'functions',
+    //     'methods',
+    //   ]
+    // }],
 
     // disallow empty destructuring patterns
     // https://eslint.org/docs/rules/no-empty-pattern
@@ -100,7 +101,8 @@ module.exports = {
     'no-fallthrough': 'error',
 
     // disallow the use of leading or trailing decimal points in numeric literals
-    'no-floating-decimal': 'error',
+    // TODO: enable
+    // 'no-floating-decimal': 'error',
 
     // // disallow reassignments of native objects or read-only globals
     // // https://eslint.org/docs/rules/no-global-assign
@@ -155,10 +157,10 @@ module.exports = {
     'no-multi-str': 'error',
 
     // disallow use of new operator when not part of the assignment or comparison
-    'no-new': 'error',
+    // 'no-new': 'error',
 
     // disallow use of new operator for Function object
-    'no-new-func': 'error',
+    // 'no-new-func': 'error',
 
     // disallows creating new instances of String, Number, and Boolean
     'no-new-wrappers': 'error',
@@ -237,10 +239,12 @@ module.exports = {
     // }],
 
     // disallow use of assignment in return statement
-    'no-return-assign': ['error', 'always'],
+    // TODO: enable
+    // 'no-return-assign': ['error', 'always'],
 
     // disallow redundant `return await`
-    'no-return-await': 'error',
+    // TODO: enable
+    // 'no-return-await': 'error',
 
     // // disallow use of `javascript:` urls.
     // 'no-script-url': 'error',
@@ -324,6 +328,7 @@ module.exports = {
     'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
 
     // require or disallow Yoda conditions
-    yoda: 'error'
+    // TODO: enable
+    // yoda: 'error'
   }
 };
