@@ -17,6 +17,7 @@
     "rocketchat"
   ],
   "author": "Diego Sampaio <diego.sampaio@rocket.chat>",
+  "private": false,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RocketChat/eslint-config-rocketchat/issues"
