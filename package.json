@@ -1,6 +1,6 @@
 {
   "name": "@rocket.chat/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Rocket.Chat's JS ESLint config",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RocketChat/eslint-config-rocketchat/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.14.0"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
