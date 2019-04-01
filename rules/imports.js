@@ -162,9 +162,9 @@ module.exports = {
     // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
     // 'import/max-dependencies': ['off', { max: 10 }],
 
-    // // Forbid import of modules using absolute paths
-    // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
-    // 'import/no-absolute-path': 'error',
+    // Forbid import of modules using absolute paths
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
+    'import/no-absolute-path': 'error',
 
     // // Forbid require() calls with expressions
     // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
