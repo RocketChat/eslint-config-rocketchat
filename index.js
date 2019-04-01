@@ -12,7 +12,8 @@ module.exports = {
 		sourceType: 'module',
 		ecmaVersion: 2017,
 		ecmaFeatures: {
-			experimentalObjectRestSpread: true
+			generators: false,
+			objectLiteralDuplicateProperties: false
 		}
 	},
 	env: {
