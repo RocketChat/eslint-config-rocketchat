@@ -61,10 +61,10 @@ module.exports = {
 
     // disallow unnecessary parentheses
     // https://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': ['off', 'all', {
+    'no-extra-parens': ['error', 'all', {
       conditionalAssign: true,
       nestedBinaryExpressions: false,
-      returnAssign: false,
+      returnAssign: true,
       ignoreJSX: 'all', // delegate to eslint-plugin-react
       enforceForArrowConditionals: false,
     }],
