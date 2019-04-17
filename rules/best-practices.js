@@ -63,19 +63,17 @@ module.exports = {
 
     // disallow else after a return in an if
     // https://eslint.org/docs/rules/no-else-return
-    // TODO: enable
-    // 'no-else-return': ['error', { allowElseIf: false }],
+    'no-else-return': ['error', { allowElseIf: false }],
 
     // disallow empty functions, except for standalone funcs/arrows
     // https://eslint.org/docs/rules/no-empty-function
-    // TODO: enable
-    // 'no-empty-function': ['error', {
-    //   allow: [
-    //     'arrowFunctions',
-    //     'functions',
-    //     'methods',
-    //   ]
-    // }],
+    'no-empty-function': ['error', {
+      allow: [
+        'arrowFunctions',
+        'functions',
+        'methods',
+      ]
+    }],
 
     // disallow empty destructuring patterns
     // https://eslint.org/docs/rules/no-empty-pattern
@@ -101,8 +99,7 @@ module.exports = {
     'no-fallthrough': 'error',
 
     // disallow the use of leading or trailing decimal points in numeric literals
-    // TODO: enable
-    // 'no-floating-decimal': 'error',
+    'no-floating-decimal': 'error',
 
     // // disallow reassignments of native objects or read-only globals
     // // https://eslint.org/docs/rules/no-global-assign
@@ -239,12 +236,10 @@ module.exports = {
     // }],
 
     // disallow use of assignment in return statement
-    // TODO: enable
-    // 'no-return-assign': ['error', 'always'],
+    'no-return-assign': ['error', 'always'],
 
     // disallow redundant `return await`
-    // TODO: enable
-    // 'no-return-await': 'error',
+    'no-return-await': 'error',
 
     // // disallow use of `javascript:` urls.
     // 'no-script-url': 'error',
@@ -328,7 +323,6 @@ module.exports = {
     'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
 
     // require or disallow Yoda conditions
-    // TODO: enable
-    // yoda: 'error'
+    yoda: 'error'
   }
 };

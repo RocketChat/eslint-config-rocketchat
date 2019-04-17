@@ -15,8 +15,7 @@ module.exports = {
 
     // Disallow await inside of loops
     // https://eslint.org/docs/rules/no-await-in-loop
-    // TODO enable!
-    // 'no-await-in-loop': 'error',
+    'no-await-in-loop': 'error',
 
     // Disallow comparisons to negative zero
     // https://eslint.org/docs/rules/no-compare-neg-zero
@@ -115,13 +114,11 @@ module.exports = {
 
     // disallow return/throw/break/continue inside finally blocks
     // https://eslint.org/docs/rules/no-unsafe-finally
-    // TODO: enable
-    // 'no-unsafe-finally': 'error',
+    'no-unsafe-finally': 'error',
 
     // disallow negating the left operand of relational operators
     // https://eslint.org/docs/rules/no-unsafe-negation
-    // TODO: enable
-    // 'no-unsafe-negation': 'error',
+    'no-unsafe-negation': 'error',
 
     // disallow negation of the left operand of an in expression
     // deprecated in favor of no-unsafe-negation
@@ -142,7 +139,6 @@ module.exports = {
 
     // ensure that the results of typeof are compared against a valid string
     // https://eslint.org/docs/rules/valid-typeof
-    // TODO: enable
-    // 'valid-typeof': ['error', { requireStringLiterals: true }],
+    'valid-typeof': ['error', { requireStringLiterals: true }],
   }
 };
