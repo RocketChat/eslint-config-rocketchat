@@ -57,9 +57,9 @@ module.exports = {
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': ['error', 'always'],
 
-    // // enforce spacing between functions and their invocations
-    // // https://eslint.org/docs/rules/func-call-spacing
-    // 'func-call-spacing': ['error', 'never'],
+    // enforce spacing between functions and their invocations
+    // https://eslint.org/docs/rules/func-call-spacing
+    'func-call-spacing': ['error', 'never'],
 
     // // requires function names to match the name of the variable or property to which they are
     // // assigned
@@ -124,19 +124,19 @@ module.exports = {
     // https://eslint.org/docs/rules/linebreak-style
     'linebreak-style': ['error', 'unix'],
 
-    // // require or disallow an empty line between class members
-    // // https://eslint.org/docs/rules/lines-between-class-members
-    // 'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: false }],
+    // require or disallow an empty line between class members
+    // https://eslint.org/docs/rules/lines-between-class-members
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: false }],
 
     // // enforces empty lines around comments
     // 'lines-around-comment': 'off',
 
-    // // require or disallow newlines around directives
-    // // https://eslint.org/docs/rules/lines-around-directive
-    // 'lines-around-directive': ['error', {
-    //   before: 'always',
-    //   after: 'always',
-    // }],
+    // require or disallow newlines around directives
+    // https://eslint.org/docs/rules/lines-around-directive
+    'lines-around-directive': ['error', {
+      before: 'always',
+      after: 'always',
+    }],
 
     // specify the maximum depth that blocks can be nested
     'max-depth': ['off', 4],
@@ -393,8 +393,8 @@ module.exports = {
     // require or disallow use of semicolons instead of ASI
     semi: ['error', 'always'],
 
-    // // enforce spacing before and after semicolons
-    // 'semi-spacing': ['error', { before: false, after: true }],
+    // enforce spacing before and after semicolons
+    'semi-spacing': ['error', { before: false, after: true }],
 
     // Enforce location of semicolons
     // https://eslint.org/docs/rules/semi-style
@@ -432,9 +432,9 @@ module.exports = {
     // https://eslint.org/docs/rules/spaced-comment
     'spaced-comment': 'error',
 
-    // // Enforce spacing around colons of switch statements
-    // // https://eslint.org/docs/rules/switch-colon-spacing
-    // 'switch-colon-spacing': ['error', { after: true, before: false }],
+    // Enforce spacing around colons of switch statements
+    // https://eslint.org/docs/rules/switch-colon-spacing
+    'switch-colon-spacing': ['error', { after: true, before: false }],
 
     // // Require or disallow spacing between template tags and their literals
     // // https://eslint.org/docs/rules/template-tag-spacing

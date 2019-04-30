@@ -251,14 +251,14 @@ module.exports = {
     //   props: false,
     // }],
 
-    // // disallow comparisons where both sides are exactly the same
-    // 'no-self-compare': 'error',
+    // disallow comparisons where both sides are exactly the same
+    'no-self-compare': 'error',
 
-    // // disallow use of comma operator
-    // 'no-sequences': 'error',
+    // disallow use of comma operator
+    'no-sequences': 'error',
 
-    // // restrict what can be thrown as an exception
-    // 'no-throw-literal': 'error',
+    // restrict what can be thrown as an exception
+    'no-throw-literal': 'error',
 
     // // disallow unmodified conditions of loops
     // // https://eslint.org/docs/rules/no-unmodified-loop-condition
@@ -271,24 +271,24 @@ module.exports = {
     //   allowTaggedTemplates: false,
     // }],
 
-    // // disallow unused labels
-    // // https://eslint.org/docs/rules/no-unused-labels
-    // 'no-unused-labels': 'error',
+    // disallow unused labels
+    // https://eslint.org/docs/rules/no-unused-labels
+    'no-unused-labels': 'error',
 
-    // // disallow unnecessary .call() and .apply()
-    // 'no-useless-call': 'off',
+    // disallow unnecessary .call() and .apply()
+    'no-useless-call': 'off',
 
-    // // disallow useless string concatenation
-    // // https://eslint.org/docs/rules/no-useless-concat
-    // 'no-useless-concat': 'error',
+    // disallow useless string concatenation
+    // https://eslint.org/docs/rules/no-useless-concat
+    'no-useless-concat': 'error',
 
     // // disallow unnecessary string escaping
     // // https://eslint.org/docs/rules/no-useless-escape
     // 'no-useless-escape': 'error',
 
-    // // disallow redundant return; keywords
-    // // https://eslint.org/docs/rules/no-useless-return
-    // 'no-useless-return': 'error',
+    // disallow redundant return; keywords
+    // https://eslint.org/docs/rules/no-useless-return
+    'no-useless-return': 'error',
 
     // disallow use of void operator
     // https://eslint.org/docs/rules/no-void
