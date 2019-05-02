@@ -67,25 +67,25 @@ module.exports = {
     //   patterns: []
     // }],
 
-    // // disallow to use this/super before super() calling in constructors.
-    // // https://eslint.org/docs/rules/no-this-before-super
-    // 'no-this-before-super': 'error',
+    // disallow to use this/super before super() calling in constructors.
+    // https://eslint.org/docs/rules/no-this-before-super
+    'no-this-before-super': 'error',
 
-    // // disallow useless computed property keys
-    // // https://eslint.org/docs/rules/no-useless-computed-key
-    // 'no-useless-computed-key': 'error',
+    // disallow useless computed property keys
+    // https://eslint.org/docs/rules/no-useless-computed-key
+    'no-useless-computed-key': 'error',
 
-    // // disallow unnecessary constructor
-    // // https://eslint.org/docs/rules/no-useless-constructor
-    // 'no-useless-constructor': 'error',
+    // disallow unnecessary constructor
+    // https://eslint.org/docs/rules/no-useless-constructor
+    'no-useless-constructor': 'error',
 
-    // // disallow renaming import, export, and destructured assignments to the same name
-    // // https://eslint.org/docs/rules/no-useless-rename
-    // 'no-useless-rename': ['error', {
-    //   ignoreDestructuring: false,
-    //   ignoreImport: false,
-    //   ignoreExport: false,
-    // }],
+    // disallow renaming import, export, and destructured assignments to the same name
+    // https://eslint.org/docs/rules/no-useless-rename
+    'no-useless-rename': ['error', {
+      ignoreDestructuring: false,
+      ignoreImport: false,
+      ignoreExport: false,
+    }],
 
     // require let or const instead of var
     'no-var': 'error',
@@ -145,9 +145,9 @@ module.exports = {
     // // https://eslint.org/docs/rules/require-yield
     // 'require-yield': 'error',
 
-    // // enforce spacing between object rest-spread
-    // // https://eslint.org/docs/rules/rest-spread-spacing
-    // 'rest-spread-spacing': ['error', 'never'],
+    // enforce spacing between object rest-spread
+    // https://eslint.org/docs/rules/rest-spread-spacing
+    'rest-spread-spacing': ['error', 'never'],
 
     // // import sorting
     // // https://eslint.org/docs/rules/sort-imports

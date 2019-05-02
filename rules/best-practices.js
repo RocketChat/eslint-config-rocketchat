@@ -132,8 +132,8 @@ module.exports = {
     // // disallow use of labels for anything other then loops and switches
     // 'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
 
-    // // disallow unnecessary nested blocks
-    // 'no-lone-blocks': 'error',
+    // disallow unnecessary nested blocks
+    'no-lone-blocks': 'error',
 
     // disallow creation of functions within loops
     'no-loop-func': 'error',

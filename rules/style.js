@@ -195,9 +195,9 @@ module.exports = {
       capIsNewExceptions: ['Match.Optional', 'Match.Maybe', 'Match.OneOf', 'Match.Where', 'Match.ObjectIncluding', 'Push.Configure', 'SHA256'],
     }],
 
-    // // disallow the omission of parentheses when invoking a constructor with no arguments
-    // // https://eslint.org/docs/rules/new-parens
-    // 'new-parens': 'error',
+    // disallow the omission of parentheses when invoking a constructor with no arguments
+    // https://eslint.org/docs/rules/new-parens
+    'new-parens': 'error',
 
     // // allow/disallow an empty newline after var statement
     // 'newline-after-var': 'off',
@@ -363,9 +363,9 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': ['error', 'always'],
 
-    // // Requires operator at the beginning of the line in multiline statements
-    // // https://eslint.org/docs/rules/operator-linebreak
-    // 'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+    // Requires operator at the beginning of the line in multiline statements
+    // https://eslint.org/docs/rules/operator-linebreak
+    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
 
     // disallow padding within blocks
     'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],
