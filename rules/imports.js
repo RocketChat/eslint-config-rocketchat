@@ -123,9 +123,9 @@ module.exports = {
 
     // Style guide:
 
-    // // disallow non-import statements appearing before import statements
-    // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-    // 'import/first': 'error',
+    // disallow non-import statements appearing before import statements
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
+    'import/first': 'error',
 
     // // disallow non-import statements appearing before import statements
     // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
@@ -149,14 +149,17 @@ module.exports = {
     //   jsx: 'never',
     // }],
 
-    // // ensure absolute imports are above relative imports and that unassigned imports are ignored
-    // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // // TODO: enforce a stricter convention in module import order?
-    // 'import/order': ['error', { groups: [['builtin', 'external', 'internal']] }],
+    // ensure absolute imports are above relative imports and that unassigned imports are ignored
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    // TODO: enforce a stricter convention in module import order?
+    'import/order': ['error', {
+      'newlines-between': 'always',
+      groups: ['builtin', 'external', 'internal', ['parent', 'sibling']]
+    }],
 
-    // // Require a newline after the last import/require in a group
-    // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    // 'import/newline-after-import': 'error',
+    // Require a newline after the last import/require in a group
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
+    'import/newline-after-import': 'error',
 
     // // Require modules with a single export to use a default export
     // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
@@ -174,9 +177,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
     'import/no-absolute-path': 'error',
 
-    // // Forbid require() calls with expressions
-    // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
-    // 'import/no-dynamic-require': 'error',
+    // Forbid require() calls with expressions
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
+    'import/no-dynamic-require': 'error',
 
     // // prevent importing the submodules of other modules
     // // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
@@ -230,9 +233,9 @@ module.exports = {
     // // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-default-export.md
     // 'import/no-default-export': 'off',
 
-    // // Forbid a module from importing itself
-    // // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-self-import.md
-    // 'import/no-self-import': 'error',
+    // Forbid a module from importing itself
+    // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-self-import.md
+    'import/no-self-import': 'error',
 
     // Forbid cyclical dependencies between modules
     // https://github.com/benmosher/eslint-plugin-import/blob/d81f48a2506182738409805f5272eff4d77c9348/docs/rules/no-cycle.md
