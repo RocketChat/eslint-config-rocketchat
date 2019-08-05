@@ -154,7 +154,7 @@ module.exports = {
     // TODO: enforce a stricter convention in module import order?
     'import/order': ['error', {
       'newlines-between': 'always',
-      groups: ['builtin', 'external', 'internal', ['parent', 'sibling']]
+      groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']]
     }],
 
     // Require a newline after the last import/require in a group
